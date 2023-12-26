@@ -14,7 +14,7 @@ import Login from "./pages/Login";
 import PageNotFound from "./pages/PageNotFound";
 import AppLayout from "./ui/AppLayout";
 import Booking from "./pages/Booking";
-import CheckIn from "./pages/CheckIn";
+import Checkin from "./pages/Checkin";
 import ProtectedRoute from "./ui/ProtectedRoute";
 import { DarkModeProvider } from "./context/DarkModeContext";
 
@@ -61,7 +61,7 @@ function App() {
 								/>
 								<Route
 									path="checkin/:bookingId"
-									element={<CheckIn />}
+									element={<Checkin />}
 								/>
 								<Route path="cabins" element={<Cabins />} />
 								<Route path="users" element={<Users />} />
